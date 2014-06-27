@@ -1,0 +1,91 @@
+#menu {
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	z-index:1000000100;
+	text-align:right;
+	}
+
+	button.menu, button#close {
+		text-transform: uppercase;
+		font: 8pt/8pt Helvetica, Arial, sans-serif;
+		letter-spacing: 1.4pt;
+		}
+
+		button.menu {
+			padding: 10pt 11pt;
+			margin: 3pt;
+			background-color: rgba(0,0,0,0.9);
+			border:0;
+			border-radius: 2pt;
+			color: white;
+			}
+
+			button.menu.highlight {
+				background-color: blue;
+				}
+
+		button#close {
+			display: none;
+			position:fixed;
+			z-index:1000000100;
+			top:10px;
+			right:10px;
+			color: #dfdfdf;
+			background-color: transparent;
+			border: 2px solid #dfdfdf;
+			border-radius: 30pt;
+			height:80px;
+			width:80px;
+			font-weight:bold;
+			letter-spacing: 0;
+			text-align: center;
+			}
+
+			button#close:hover { font-size:20pt; }
+
+
+
+#stage {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1000000099;
+	width:80%;
+	padding:50px 10%;
+	background-color: white;
+	display: none;
+	}
+
+	#stage header { margin-bottom:50px; }
+		#stage .kicker { display: none; }
+		#stage .byline-dateline {
+			font: 9pt/12pt Helvetica;
+			letter-spacing: 1pt;
+			}
+
+		#stage .story-heading {
+			font: 12pt/12pt Helvetica;
+			font-weight:bold;
+			letter-spacing: 1pt;
+			margin:5px 0;
+			text-transform: uppercase;
+			}
+		#stage h1 { margin:10px 0 5px; }
+
+
+#stage p.story-body-text {
+	font-size: 20pt;
+	line-height: 32pt;
+	letter-spacing: 0.4pt;
+	word-spacing: 1pt;
+	}
+
+
+
+	p.story-body-text .blacken {
+		background-image: url("http://www.colorhexa.com/333333.png");
+		background-size: 100% 35%;
+	    background-repeat: no-repeat;
+	    background-position: 50% 60%;
+		}
