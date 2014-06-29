@@ -52,7 +52,7 @@ $(document).ready( function () {
 							var jumble = interior_chars.split('').sort( function() { return 0.5-Math.random() }).join('');
 
 							// Put the pieces back together
-							words[i] = words[i].substring(0,1) + jumble + words[i].substring(words[i].length-1);
+							words[i] = words[i].substring(0,1) + jumble + words[i].substring(words[i].length);
 						}
 				        break;
 

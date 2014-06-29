@@ -88,13 +88,3 @@
 	    background-repeat: no-repeat;
 	    background-position: 50% 60%;
 		}
-
-@font-face {
-    font-family: zitti_font;
-    src: url(http://www.coreymlee.com/zitti-webfont.ttf);
-}
-
-	.no_counters {
-		font-family: zitti_font;
-    	}
-
