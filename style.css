@@ -77,15 +77,24 @@
 #stage p.story-body-text {
 	font-size: 20pt;
 	line-height: 32pt;
-	letter-spacing: 0.4pt;
-	word-spacing: 1pt;
+	letter-spacing: 0pt;
+	word-spacing: 2pt;
 	}
 
 
-
-	p.story-body-text .blacken {
-		background-image: url("333333.png");
+	.blacken {
+		background-image: url("chrome-extension://ooebdnkfnegjknekehpfpjabmkkomejk/images/333333.png");
 		background-size: 100% 35%;
 	    background-repeat: no-repeat;
 	    background-position: 50% 60%;
 		}
+
+@font-face {
+    font-family: zitti_font;
+    src: url(http://www.coreymlee.com/zitti-webfont.ttf);
+}
+
+	.no_counters {
+		font-family: zitti_font;
+    	}
+

@@ -1,7 +1,7 @@
 {
   "name": "Skim",
   "description": "Skim modifies the way words are displayed in NYT articles. It hopes to investigate if obscuring characters can enhance reading.",
-  "version": "0.2",
+  "version": "0.2.2",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
@@ -26,6 +26,9 @@
       "run_at" : "document_idle",
       "all_frames" : false
     }
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
   ],
   "icons" : {
     "19" : "icon-19.png",
